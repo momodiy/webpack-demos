@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: 'bundle.js'
   },
-  plugins: [
-    new UglifyJsPlugin()
-  ]
+  // plugins: [
+  //   new UglifyJsPlugin()
+  // ]
 };
