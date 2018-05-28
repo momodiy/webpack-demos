@@ -11,8 +11,8 @@ module.exports = {
   module: {
     rules:[
       {
-        test: /\.js[x]?$/,
-        exclude: /node_modules/,
+        test: /\.js[x]?$/, //正则匹配文件
+        exclude: /node_modules/,  //排除不检查的文件
         use: {
           loader: 'babel-loader',
           options: {
